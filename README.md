@@ -12,3 +12,10 @@ Here is his [github repo](https://github.com/guillermo-musumeci/packer-vsphere-i
 
 ## More instructions
 You can find more instructions in /packer-vsphere-iso-windows/README.md
+
+## How to install packer
+export PACKER_RELEASE="1.7.2"
+wget https://releases.hashicorp.com/packer/${PACKER_RELEASE}/packer_${PACKER_RELEASE}_linux_amd64.zip
+unzip packer_${PACKER_RELEASE}_linux_amd64.zip
+mv packer /usr/local/bin
+
